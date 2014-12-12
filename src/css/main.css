@@ -116,7 +116,7 @@ textarea {
 	  display: table;
 	  font-size: 20px;
 	  font-family:"Segoe UI";
-	  
+	  letter-spacing: 2px;
 	  
 	}
 	
@@ -125,6 +125,7 @@ textarea {
 	  width: 1400px;
 	  background-color: #ffffff;
 	  text-align: center;
+	  color: #5e5e5e;
 	  
 	}
 	
@@ -132,25 +133,40 @@ textarea {
 	  height:  402px;
 	  width:  1400px;
 	  background-color: #eef1f6;
+	  text-align:center
 	  
 	}
 	
 	#heatpara{
-	font-family:"Segoe UI";
+	  font-family:"Segoe UI";
+	  width: 920px;
+	  margin-left: auto;
+	  margin-right: auto;
+	  text-align:center
+	
 	}
 	
 	#coolpara{
-	font-family:"Segoe UI";
+	  font-family:"Segoe UI";
+	  width: 920px;
+	  margin-left: auto;
+	  margin-right: auto;
+	  text-align:center
 	}
 	
 	#aboutpara{
-	font-family:"Segoe UI";
+	  font-family:"Segoe UI";
+	  width: 920px;
+	  margin-left: auto;
+	  margin-right: auto;
+	  text-align:center
 	}
 
 	#cooling{
 	  height:  402px;
 	  width:  1400px;
 	  background-color: #ffffff;
+	  text-align:center
 
 	}
 	
@@ -158,6 +174,7 @@ textarea {
 	  height:  888px;
 	  width:  1400px;
 	  background-color: #eef1f6;
+	  text-align:center;
 
 	}
 	
@@ -181,9 +198,22 @@ textarea {
 	  float: left;
 	}
 
+	#about h1{
+	  color: black;
+	  letter-spacing: 3px;
+	}
+	
+	#cooling h1{
+	  color: #267fb9;
+	  letter-spacing: 3px;
+	}
+	
+	#heating h1{
+	  color: #c0382a;
+	  letter-spacing: 3px;
+	}
 
-
-
+	
 
 
 
