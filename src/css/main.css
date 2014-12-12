@@ -111,7 +111,7 @@ textarea {
 	  height: 49px;
 	  width: 1400px;
 	  background-color: #3f8352;
-	  margin: 0 auto; 
+	  margin: 0; 
       text-align: center;
 	  display: table;
 	  font-size: 20px;
@@ -124,10 +124,18 @@ textarea {
 	  height: 1268px;
 	  width: 1400px;
 	  background-color: #ffffff;
-	  text-align: center;
 	  color: #5e5e5e;
+	  font-weight: 200;
 	  
 	}
+	
+	#contenthead{
+	color: #5e5e5e;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	}
+	
 	
 	#heating{
 	  height:  402px;
@@ -181,7 +189,6 @@ textarea {
 	#menu ul {
 	  text-align: center;
 	  display: table;
-	  border: 1px solid red;
 	  margin-left:auto;
 	  margin-right:auto;
     }
@@ -198,25 +205,87 @@ textarea {
 	  float: left;
 	}
 
-	#about h1{
+	#about h2{
 	  color: black;
 	  letter-spacing: 3px;
+	  font-size: 250%;
+	  font-weight: 200;
 	}
 	
-	#cooling h1{
+	#cooling h2{
 	  color: #267fb9;
 	  letter-spacing: 3px;
+	  font-size: 250%;
+	  font-weight: 200;
 	}
 	
-	#heating h1{
+	#heating h2{
 	  color: #c0382a;
 	  letter-spacing: 3px;
+	  font-size: 250%;
+	  font-weight: 200;
 	}
 
+	#h2{
+	font-size: 250%;
+	}
+
+	#logo{
 	
+	margin-left: 200px;
+	}
+	
+	#bbb{
+	
+	
+	border: 1px solid red;
+	}
+	
+	#faceb{
+	border: 1px solid yellow;
+	
+	}
 
-
-
+	#lcontent{
+	float:left;
+	width: 510px;
+	height: 140px;
+	border: 1px solid blue;
+	position: relative;
+	left: 209px;
+	font-size: 13px;
+	font-weight: bold;
+	}
+	
+	#rcontent{
+	float: right;
+	height: 140px;
+	border: 1px solid green;
+	position: relative;
+	right: 209px;
+	font-size: 13px;
+	font-weight: bold;
+	}
+	
+	#fbanner{
+	width: 980px;
+	height: 50px;
+	background-image: url('../img/banner.jpg');
+	background-repeat: repeat-x;
+	border: 1px solid red;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: orange;
+	border-radius: 5px;
+	color: white;
+	}
+	
+	#endimg{
+	position: relative;
+	bottom: -20px;
+	right: 20px;
+	border: 1px solid yellow;
+	}
 
 
 
