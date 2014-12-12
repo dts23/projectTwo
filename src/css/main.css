@@ -93,10 +93,55 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   #wrapper{
+	 height: 3100px;
+	 width: 1400px;
+	 margin-left: auto;
+     margin-right: auto;
+   }
 
+	#header{
+	  height: 84px;
+	  width: 1400px;
+	  background-color: #ffffff;
+	  
+	}
+	
+	#menu{
+	  height: 49px;
+	  width: 1400px;
+	  background-color: #3f8352;
+	  
+	  
+	}
+	
+	#content{
+	  height: 1268px;
+	  width: 1400px;
+	  background-color: #ffffff;
+	  
+	}
+	
+	#heating{
+	  height:  402px;
+	  width:  1400px;
+	  background-color: #eef1f6;
+	  
+	}
 
+	#cooling{
+	  height:  402px;
+	  width:  1400px;
+	  background-color: #ffffff;
 
+	}
+	
+	#about{
+	  height:  888px;
+	  width:  1400px;
+	  background-color: #eef1f6;
 
+	}
 
 
 
