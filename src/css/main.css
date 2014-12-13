@@ -207,86 +207,199 @@ textarea {
 
 	#about h2{
 	  color: black;
-	  letter-spacing: 3px;
-	  font-size: 250%;
+	  letter-spacing: 6px;
+	  font-size: 200%;
 	  font-weight: 200;
+	  position: relative;
+	  bottom: -20px;
 	}
 	
 	#cooling h2{
 	  color: #267fb9;
-	  letter-spacing: 3px;
-	  font-size: 250%;
+	  letter-spacing: 6px;
+	  font-size: 200%;
 	  font-weight: 200;
+	  position: relative;
+	  bottom: -20px;
 	}
 	
 	#heating h2{
 	  color: #c0382a;
-	  letter-spacing: 3px;
-	  font-size: 250%;
+	  letter-spacing: 6px;
+	  font-size: 200%;
 	  font-weight: 200;
+	  position: relative;
+	  bottom: -20px;
 	}
 
 	#h2{
-	font-size: 250%;
+	  font-size: 250%;
 	}
 
 	#logo{
-	
-	margin-left: 200px;
+	  position: relative;
+      left: 220px;
+	  height: 100px;
+	  width: 300px;
 	}
 	
 	#bbb{
-	
-	
-	border: 1px solid red;
+	  position: relative;
+      left: 800px;
+	  bottom: 65px;
+	  height: 100px;
+	  width: 100px;
 	}
 	
 	#faceb{
-	border: 1px solid yellow;
-	
+	  position: relative;
+      left: 1200px;
+	  bottom: 160px;
+	  height: 100px;
+	  width: 100px;
 	}
 
 	#lcontent{
-	float:left;
-	width: 510px;
-	height: 140px;
-	border: 1px solid blue;
-	position: relative;
-	left: 209px;
-	font-size: 13px;
-	font-weight: bold;
+	  float:left;
+	  width: 510px;
+	  height: 140px;
+	  border: 1px solid blue;
+	  position: relative;
+	  left: 209px;
+	  font-size: 13px;
+	  font-weight: 100;
+	  line-height: 150%;
+	  text-align: left;
 	}
 	
 	#rcontent{
-	float: right;
-	height: 140px;
-	border: 1px solid green;
-	position: relative;
-	right: 209px;
-	font-size: 13px;
-	font-weight: bold;
+	  float: right;
+	  height: 140px;
+	  border: 1px solid green;
+	  position: relative;
+	  right: 209px;
+	  font-size: 13px;
+	  font-weight: 200;
+	  line-height: 150%;
+	  text-align: left;
 	}
 	
 	#fbanner{
-	width: 980px;
-	height: 50px;
-	background-image: url('../img/banner.jpg');
-	background-repeat: repeat-x;
-	border: 1px solid red;
-	margin-left: auto;
-	margin-right: auto;
-	background-color: orange;
-	border-radius: 5px;
-	color: white;
+	  width: 980px;
+	  height: 50px;
+	  background-image: url('../img/banner.jpg');
+	  background-repeat: repeat-x;
+	  margin-left: auto;
+	  margin-right: auto;
+	  border-radius: 5px;
+	  color: white;
+	  padding: 1px;
+	}
+	
+	#fblogo1{
+	  position: absolute;
+	  right: 0px;
+	  left: 510px;
+	  bottom: 315px;
+	  height: 100px;
+	  width: 100px;
+	}
+	
+	#fblogo2{
+	  position: absolute;
+	  right: 0px;
+	  left: 1276px;
+	  top: 570px;
+	  height: 100px;
+	  width: 100px;
+	  
+	}
+	
+	#fbanner p{
+	  color: white;
 	}
 	
 	#endimg{
-	position: relative;
-	bottom: -20px;
-	right: 20px;
-	border: 1px solid yellow;
+	  position: relative;
+	  bottom: -20px;
+	  right: 50px;
+	
+	}
+	
+	#table2{
+    /* Safari */
+    -webkit-transform: rotate(-90deg);
+    
+    /* Firefox */
+    -moz-transform: rotate(-90deg);
+    
+    /* IE */
+    -ms-transform: rotate(-90deg);
+    
+    /* Opera */
+    -o-transform: rotate(-90deg);
 	}
 
+	#block1{
+	  float: left;
+	  background-color: #c1392b;
+	  color: #FFFFFF;
+	  border: 1px solid red;
+	  height: 24px;
+	  width: 171px;
+	  size: 11px;
+	}
+
+	#block2{
+	  float: right;
+	  background-color: #2a80b9;
+	  color: #FFFFFF;
+	  border: 1px solid blue;
+	  height: 24px;
+	  width: 300px;
+	  size: 11px;
+	}
+
+
+	#table2{
+		position: absolute;
+		width: 483px;
+		float: left;
+		line-height: 10%;
+		left:-256px;
+		bottom:242px;
+	}
+
+	#table1{
+	float: right;
+	}
+	
+	#table1 td{
+		background-color: #f7f7f7;
+		width: 314px;
+		height:40px;
+		color: #787878;
+		text-align: left;
+	}
+
+	#table1 th{
+		 background-color: #7e8c8d;
+		  width: 314px;
+		 height: 64px; 
+		 color: white;
+
+	}
+	
+	#tabletable{
+	  border: 1px solid red;
+	  width: 950px;
+	  height: 483px;
+	  position: absolute;
+	  float: right;
+	  top: 820px;
+	  left: 474px;
+	  
+	}
 
 
 /* ==========================================================================
