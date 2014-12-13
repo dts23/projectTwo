@@ -263,7 +263,6 @@ textarea {
 	  float:left;
 	  width: 510px;
 	  height: 140px;
-	  border: 1px solid blue;
 	  position: relative;
 	  left: 209px;
 	  font-size: 13px;
@@ -275,7 +274,6 @@ textarea {
 	#rcontent{
 	  float: right;
 	  height: 140px;
-	  border: 1px solid green;
 	  position: relative;
 	  right: 209px;
 	  font-size: 13px;
@@ -344,7 +342,6 @@ textarea {
 	  float: left;
 	  background-color: #c1392b;
 	  color: #FFFFFF;
-	  border: 1px solid red;
 	  height: 24px;
 	  width: 171px;
 	  size: 11px;
@@ -354,7 +351,6 @@ textarea {
 	  float: right;
 	  background-color: #2a80b9;
 	  color: #FFFFFF;
-	  border: 1px solid blue;
 	  height: 24px;
 	  width: 300px;
 	  size: 11px;
@@ -367,7 +363,7 @@ textarea {
 		float: left;
 		line-height: 10%;
 		left:-256px;
-		bottom:242px;
+		bottom:227px;
 	}
 
 	#table1{
@@ -380,6 +376,7 @@ textarea {
 		height:40px;
 		color: #787878;
 		text-align: left;
+		margin-right: 10px;
 	}
 
 	#table1 th{
@@ -387,11 +384,14 @@ textarea {
 		  width: 314px;
 		 height: 64px; 
 		 color: white;
+		 letter-spacing: 6px;
+		 size:40px;
+		 border: 2px solid white;
 
 	}
 	
 	#tabletable{
-	  border: 1px solid red;
+	  
 	  width: 950px;
 	  height: 483px;
 	  position: absolute;
@@ -400,7 +400,41 @@ textarea {
 	  left: 474px;
 	  
 	}
+	
+	#contact {
+      width: 300px;
+	  color: black;
+	  height: 60px;
+	  position: absolute;
+	  top: -16px;
+	  left: 1191px;
 
+	}
+
+	#line1{
+	  float: left;
+	  font-weight: bold;
+	  color: black;
+	  padding-right: 10px;
+	}
+
+	#line2{
+	  float: right;
+	  font-weight: bold;
+	  color: #3f8352;
+	}
+
+	#line3{
+	  text-align: right;
+	  position: absolute;
+	  top: 34px;
+	  left: 74px;
+	}
+	
+	#bottomline{
+	position: absolute;
+	top: 52px;
+	}
 
 /* ==========================================================================
    Helper classes
